@@ -42,6 +42,8 @@ def naming_system
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
   
+  # my understanding is that it will cascase the hash to a deeper level as we keep adding label and sub_category.
+  
   {
     label: "Kingdom",
     sub_category: {
